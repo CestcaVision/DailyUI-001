@@ -1,0 +1,101 @@
+body {
+  background: rgb(100, 211, 131);
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 60px;
+  font-size: 3em;
+  font-family:'jphuaifangti2b3cbdc1254b4';
+}
+
+form {
+  background: #fff;
+  background-image: url('http://i.imgur.com/v6xypCo.png');
+  background-repeat: repeat-x;
+  background-position: -150px 0;
+  max-width: 400px;
+  margin: 100px auto 0;
+  padding: 4em 4em 2em;
+  box-shadow: 0 0 1em #555;
+  border-radius: 4px;
+}
+
+p {
+  margin: 0 0 3em 0;
+  position: relative;
+}
+
+label {
+  display: block;
+  font-size: 1.6em;
+  color: #333;
+  margin: 0 0 .5em;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  border-radius: 2px;
+  width: 100%;
+  outline: none;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: 1px solid rgb(236,242,190);
+  background: rgb(217, 238, 239);
+  padding: .8em .5em;
+  font-size: 1.6em;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background: #fff;
+}
+
+span {
+  display: block;
+  width: 160px;
+  background: rgb(35, 179, 69);
+  color: #fff;
+  padding: 7px 10px;
+  text-align: center;
+  font-size: 1.3em;
+  position: absolute;
+  left: 105%;
+  top: 4px;
+  border-radius: 8px;
+}
+
+span:after {
+  content: " ";
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  border-right-color: rgb(35, 179, 69);
+  pointer-events: none;
+  border-width: 4px;
+  margin-top: -4px;
+}
+
+input[type="submit"] {
+  display: block;
+  border: none;
+  outline: none;
+  margin: 2em 0 0;
+  padding: 0.7em 0;
+  color: #fff;
+  background: rgb(100, 211, 131);
+  box-shadow: 0 5px 0 0 rgb(35, 179, 69);
+  font-size: 1.8em;
+  line-height: 1.6em;
+  cursor: pointer;
+}
